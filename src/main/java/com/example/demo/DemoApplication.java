@@ -1,5 +1,7 @@
 package com.example.demo;
 
+/**checking merge capability for version control*/
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
