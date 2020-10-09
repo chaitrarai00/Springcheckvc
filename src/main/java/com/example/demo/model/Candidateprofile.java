@@ -4,22 +4,22 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class CandidateProfile {
+public class Candidateprofile {
 	@Override
 	public String toString() {
 		return "CandidateProfile [Phoneno=" + Phoneno + ", emailid=" + emailid + ", name=" + name
 				+ ", latest_Education=" + latest_Education + ", Role=" + Role + "]";
 	}
-	public int getPhoneno() {
+	public long getPhoneno() {
 		return Phoneno;
 	}
-	public void setPhoneno(int phoneno) {
+	public void setPhoneno(long phoneno) {
 		Phoneno = phoneno;
 	}
-	public int getEmailid() {
+	public String getEmailid() {
 		return emailid;
 	}
-	public void setEmailid(int emailid) {
+	public void setEmailid(String emailid) {
 		this.emailid = emailid;
 	}
 	public String getName() {
@@ -41,8 +41,15 @@ public class CandidateProfile {
 		Role = role;
 	}
 	@Id
-	private int Phoneno;
-	private int emailid;
+	private int cid;
+	public int getCid() {
+		return cid;
+	}
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
+	private long Phoneno;
+	private String emailid;
 	private String name;
 	private String latest_Education;
 	private String Role;

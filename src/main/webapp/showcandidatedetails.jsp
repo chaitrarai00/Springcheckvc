@@ -4,15 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>My Profile</title>
+<title>Candidate Details</title>
 </head>
 <body>
-	<form action="getcandidate">
-		<input type="text" name="cid">
-		<input type="submit">
-	</form>
-	<form>
-	
-	</form>
+	${candidateprofile.name} who has worked as  ${candidateprofile.role} ${candidateprofile.email}
 </body>
 </html>
