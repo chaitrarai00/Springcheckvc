@@ -11,8 +11,14 @@
 		<input type="text" name="cid">
 		<input type="submit">
 	</form>
-	<form>
-	
+	<form action="addcandidate">
+		<input type="text" name="cid">
+		<input type="text" name="name">
+		<input type="text" name="phoneno">
+		<input type="text" name="emailid">
+		<input type="text" name="latest_education">
+		<input type="text" name="role">
+		<input type="submit">
 	</form>
 </body>
 </html>

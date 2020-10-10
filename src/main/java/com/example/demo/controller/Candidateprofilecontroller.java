@@ -19,6 +19,12 @@ public class Candidateprofilecontroller {
 		return "home.jsp";
 	}
 	
+	@RequestMapping("addcandidate")
+	public String addcandidate(Candidateprofile candidateprofile) {
+		repo.save(candidateprofile);
+		return "home.jsp";
+	}
+	
 	@RequestMapping("/getcandidate")
 	public ModelAndView getcandidate(@RequestParam Integer cid) {
 		ModelAndView mv=new ModelAndView("showcandidatedetails.jsp");
