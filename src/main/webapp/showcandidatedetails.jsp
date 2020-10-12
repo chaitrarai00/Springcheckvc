@@ -7,6 +7,7 @@
 <title>Candidate Details</title>
 </head>
 <body>
-	${candidateprofile.name} who has worked as  ${candidateprofile.role} ${candidateprofile.email}
+	${candidateprofile.name} who has worked as  ${candidateprofile.role} 
+	can be contacted at ${candidateprofile.emailid} or ${candidateprofile.phoneno}
 </body>
 </html>

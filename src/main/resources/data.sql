@@ -1,2 +1,2 @@
-insert into candidateprofile values(001,6528648321,'monica.bi@gmail.com','Monica','BTech','Data Scientist');
-insert into candidateprofile values(002,6524363510,'chandler.bi@gmail.com','Chandler','MSE','Danata Analyst and Architect');
+insert into candidateprofile values(001,6528648321,'Data Scientist','monica.bi@gmail.com','BTech','Monica');
+insert into candidateprofile values(002,6524363510,'Danata Analyst and Architect','chandler.bi@gmail.com','MSE','Chandler');

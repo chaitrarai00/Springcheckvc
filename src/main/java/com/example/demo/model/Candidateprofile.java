@@ -5,11 +5,6 @@ import javax.persistence.Id;
 
 @Entity
 public class Candidateprofile {
-	@Override
-	public String toString() {
-		return "CandidateProfile [Phoneno=" + Phoneno + ", emailid=" + emailid + ", name=" + name
-				+ ", latest_Education=" + latest_Education + ", Role=" + Role + "]";
-	}
 	public long getPhoneno() {
 		return Phoneno;
 	}

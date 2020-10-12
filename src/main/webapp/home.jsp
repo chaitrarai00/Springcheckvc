@@ -12,12 +12,12 @@
 		<input type="submit">
 	</form>
 	<form action="addcandidate">
-		<input type="text" name="cid">
-		<input type="text" name="name">
-		<input type="text" name="phoneno">
-		<input type="text" name="emailid">
-		<input type="text" name="latest_education">
-		<input type="text" name="role">
+		Candidate id: <input type="text" name="cid">
+		Candidate name:<input type="text" name="name">
+		Candidate phone number:<input type="text" name="phoneno">
+		Candidate emailid:<input type="text" name="emailid">
+		Candidate latest_education:<input type="text" name="latest_education">
+		Candidate role:<input type="text" name="role">
 		<input type="submit">
 	</form>
 </body>
