@@ -19,7 +19,7 @@ public class Candidateprofilecontroller {
 		return "home.jsp";
 	}
 	
-	@RequestMapping("addcandidate")
+	@RequestMapping("/addcandidate")
 	public String addcandidate(Candidateprofile candidateprofile) {
 		repo.save(candidateprofile);
 		return "home.jsp";
