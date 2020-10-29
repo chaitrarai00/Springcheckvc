@@ -16,9 +16,7 @@ public class SerializedCandidateprofile {
 		
 	}
 
-	public SerializedCandidateprofile(Integer id, byte[] serializedcp) {
-		
-		this.Id = id;
+	public SerializedCandidateprofile(byte[] serializedcp) {
 		this.serializedcp = serializedcp;
 	}
 

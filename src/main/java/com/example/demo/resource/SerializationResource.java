@@ -12,6 +12,6 @@ public class SerializationResource {
 
 	@PostMapping
 	public String post(@RequestBody final Candidateprofile cp) {
-		
+		return "hi";
 	}
 }
