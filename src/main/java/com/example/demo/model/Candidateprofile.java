@@ -1,10 +1,15 @@
 package com.example.demo.model;
 
+import java.io.Serializable;
+
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Candidateprofile {
+public class Candidateprofile implements Serializable{
+	
+	private static final long serialVersionUID=111L;
+	
 	public long getPhoneno() {
 		return Phoneno;
 	}
