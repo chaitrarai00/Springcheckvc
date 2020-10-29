@@ -9,7 +9,7 @@ import javax.persistence.Id;
 public class Candidateprofile implements Serializable{
 	
 	private static final long serialVersionUID=111L;
-	
+
 	public long getPhoneno() {
 		return Phoneno;
 	}
